@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Webpack
+# Leaderboard List App
 
-> Creating a webpack template
+> Leaderboard list app bundled with webpack.
 
 ## Built With
 
-- Javascript, CSS, HTML
+- Javascript, CSS, HTML, Webpack
 
 ## Live Demo (if available)
 
