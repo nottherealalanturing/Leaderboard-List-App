@@ -6,7 +6,11 @@
   "license": "MIT",
   "private": "true",
   "devDependencies": {
+    "babel-eslint": "10.x",
     "css-loader": "^6.7.1",
+    "eslint": "7.x",
+    "eslint-config-airbnb-base": "14.x",
+    "eslint-plugin-import": "2.x",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.72.0",

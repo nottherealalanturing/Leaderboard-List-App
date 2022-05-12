@@ -1,3 +1,70 @@
-body {
-  background-color: bisque;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+body h1 {
+  margin: 50px;
+}
+
+.container {
+  display: grid;
+  margin: 0 auto;
+  width: 70%;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 20px;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.refresh-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.refreshbtn {
+  padding: 5px;
+}
+
+.score-list {
+  border: 1px solid black;
+  list-style: none;
+}
+
+.score-list li {
+  padding: 5px;
+}
+
+.score-list li:nth-child(even) {
+  background-color: rgb(167, 157, 157);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form input {
+  padding: 5px;
+}
+
+.submitBtn {
+  align-self: flex-end;
+  padding: 5px;
 }
