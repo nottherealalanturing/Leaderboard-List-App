@@ -10,7 +10,7 @@ const addScore = async (user, score) => {
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
       },
-    }
+    },
   ).then((res) => {
     if (!res.ok) {
       throw Error(res.statusText);
