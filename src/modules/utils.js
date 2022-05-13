@@ -1,6 +1,4 @@
-import {
-  addScore, getScores, name, score, scorelist,
-} from './index.js';
+import { addScore, getScores, name, score, scorelist } from './index.js';
 
 const createScore = async () => {
   await addScore(name.value, score.value)
