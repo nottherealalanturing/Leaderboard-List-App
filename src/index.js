@@ -12,3 +12,5 @@ refreshBtn.addEventListener('click', (e) => {
   e.preventDefault();
   getAllScores();
 });
+
+window.addEventListener('load', () => getAllScores());
