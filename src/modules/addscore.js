@@ -1,11 +1,11 @@
 const addScore = async (user, score) => {
   const addUserScore = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/leaderboard0001',
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/leaderboard0001/scores',
     {
       method: 'POST',
       body: JSON.stringify({
-        user: user.value,
-        score: score.value,
+        user,
+        score,
       }),
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
