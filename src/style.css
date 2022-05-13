@@ -9,8 +9,13 @@
 }
 
 html {
+  color: #3d0240;
   font-size: 16px;
   font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #fae3e3;
 }
 
 body h1 {
@@ -32,18 +37,23 @@ body h1 {
 
 .refresh-div {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin-bottom: 20px;
+  gap: 10px;
 }
 
-.refreshbtn {
+.refreshBtn {
   padding: 5px;
+  border-radius: 4px;
 }
 
 .score-list {
   border: 1px solid black;
   list-style: none;
+  max-height: 500px;
+  overflow: auto;
 }
 
 .score-list li {
@@ -51,20 +61,45 @@ body h1 {
 }
 
 .score-list li:nth-child(even) {
-  background-color: rgb(167, 157, 157);
+  background-color: #b7b7b7;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 form input {
   padding: 5px;
+  width: 120%;
 }
 
 .submitBtn {
-  align-self: flex-end;
+  align-self: flex-start;
   padding: 5px;
+  border-radius: 4px;
+}
+
+@media only screen and (min-width: 700px) {
+  .refresh-div {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .submitBtn {
+    align-self: flex-end;
+  }
+
+  form input {
+    width: 100%;
+  }
+
+  .submitBtn:hover,
+  .refreshBtn:hover {
+    background-color: #7d5a5a;
+    color: #f1d1d1;
+  }
 }
