@@ -1,4 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leaderboard List App
 
@@ -10,7 +9,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](__)
+[Live Demo Link](https://nottherealalanturing.github.io/Leaderboard-List-App/)
 
 ## Authors
 
