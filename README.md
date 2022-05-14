@@ -1,4 +1,3 @@
-
 # Leaderboard List App
 
 > Leaderboard list app bundled with webpack.
@@ -10,6 +9,26 @@
 ## Live Demo (if available)
 
 [Live Demo Link](https://nottherealalanturing.github.io/Leaderboard-List-App/)
+
+### Clone this repository
+
+```bash
+$ git clone git@github.com:nottherealalanturing/Leaderboard-List-App.git
+$ cd Leaderboard-List-App
+```
+
+### Run project
+
+```bash
+$ yarn install
+$ yarn start # this will open a development server
+```
+
+### Open page in browser
+
+```bash
+$ open dist/index.html
+```
 
 ## Authors
 
